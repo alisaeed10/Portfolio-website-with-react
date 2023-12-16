@@ -1,0 +1,10 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.Project-title{
+    font-size: 4rem;
+    color: #A0DDE6;
+}

@@ -1,0 +1,40 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.intro-image{
+    width: 20rem;
+    border-radius: 30px;
+}
+.intro-text{
+    color: #E5C687;
+    font-size: 4rem;
+}
+.intro-text-title{
+    font-size: 3rem;
+    color: #E5C687;
+    margin-bottom: 0%;
+}
+.title{
+   color: #A0DDE6;
+}
+.intro-text-name{
+    font-size: 5rem;
+    margin-bottom: -5%;
+}
+.name{
+    font-size: 5rem;
+    color: #A0DDE6;
+}
+.intro-bio{
+    width: 60%;
+    
+}
+.bio{
+    text-align: center;
+    color: #E5C687;
+    font-size: 1.5rem;
+}
