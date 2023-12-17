@@ -1,10 +1,87 @@
 .Exp{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 10%;
     height: 100vh;
+
 }
 .Exp-title{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #A0DDE6;
 }
+.exp-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5rem;
+}
+.exp-employer{
+    color: #F7F3E3;
+    font-size: 1.7rem;
+}
+.exp-position{
+    color: #ecf0f1;
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-top: -1.2rem;
+}
+.exp-date{
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    margin-top: -1.2rem;
+    margin-bottom: 5%;
+}
+.exp-bulletpoint{
+    color: #E5C687;
+    font-size: 1.4rem;
+    margin-top: -0.5%;
+    width: 70%;
+}
+.next-slide-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 5%;
+    background-color: #121619;
+    margin-right: 25%;
+}
+.next-slides{
+    background-color: #ecf0f1;
+    font-size: 2.5rem;
+    color: #121619;
+    margin-left: 5rem;
+    width: 20%;
+    border-radius: 10rem;
+    height: 80%;
+    cursor: pointer;
+}
+.next-slides:hover{
+    background-color: #E5C687;
+}
+.next-slide-text{
+    display: flex;
+    color: #E5C687;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17rem;
+}
+.next-slide-zero{
+    display: flex;
+    color: #E5C687;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+}
+.next-slide-one{
+    display: flex;
+    color: #E5C687;
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 2rem;
+}
+
