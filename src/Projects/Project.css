@@ -10,8 +10,51 @@
 }
 .project-content{
     margin-top: 5rem;
-    border: 3px solid #E5C687;
     width: 80%;
     color: #E5C687;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 4rem;
+}
+
+.project-button{
+    background-color: #121619;
+    border: 5px solid #E5C687;
+    border-radius:5rem;
+    color: #E5C687;
+    font-size: 1.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+    cursor: pointer;
+    text-align: left;
+    width: 80%;
+}
+.project-button:hover{
+    background-color: #515555;
+}
+.project-name{
+    font-size: 2rem;
+    color: #F7F3E3;
+}
+.project-date{
+    font-size: 1.5rem;
+    color: #F7F3E3;
+    margin-top: -1.3rem;
+    margin-bottom: 5%;
+    margin-left: 2rem;
+}
+.project-description{
+    font-size: 1.3rem;
+    width: 80%;
+    margin-top: -1.2rem;
+    margin-bottom: 7%;
+    margin-left: 2rem;
+}
+.project-bulletpoint{
+    margin-left: 2rem;
+}
+.project-image{
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
 }

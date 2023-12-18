@@ -23,7 +23,7 @@ export function Projects() {
         [
             "3 Card Poker",
             "March - April 2023",
-            "A game that given 3 random cards from a deck of cards, the user can bet on whether they will win or lose the game against the server",
+            "A game where given 3 random cards from a deck of cards, the user can bet on whether they will win or lose the game against the server",
             [
                 "Frontend: JavaFX",
                 "Backend: Java",
@@ -31,12 +31,11 @@ export function Projects() {
             ]
         ],
         [
-            "Database Search",
-            "January - February 2023",
-            "Searched Chicago's Metra database for information about train ridership for each Metra line and Displayed a graph of the data acquired using Python's matplot library and an image of the Chicago city grid using Python's matplotlib library",
+            "Animated Bar",
+            "September - October 2022",
+            "Animated Bars is an application that animates bars moving throughout a span of years given the data that is parsed from a file.",
             [
-                "Tools: Python, SQLite",
-                "Libraries: Matplotlib"
+                "Tools: C++, Visual Studio",
             ]
         ]
     ]
@@ -56,11 +55,23 @@ export function Projects() {
         setIndex(newIndex);
         setSlideIndex(true);
     }
+    const transfer = () => {   
+        if (index === 0) {
+            window.location.href = 'https://github.com/thanhtaita/ScavengerHunt';
+        }
+        else if (index === 1) {
+            window.location.href = 'https://github.com/alisaeed10/3-card-poker-game-java';
+        }
+        else {
+            window.location.href = 'https://github.com/alisaeed10/Animated-Bars';
+        }
+    }
     return (
         <div className="Projects">
             <p className="Project-title">Projects I Built</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
-            <div className='project-content'>
+            <div className='project-content' onClick={() => transfer()}>
+                <button className='project-button' >
                 <p className='project-name'>{theProjects[index][0]}</p>
                 <p className='project-date'>{theProjects[index][1]}</p>
                 <p className='project-description'>{theProjects[index][2]}</p>
@@ -69,6 +80,18 @@ export function Projects() {
                         <p className='project-bulletpoint' key={num}>{item}</p>
                     )) : <p>{theProjects[index][3]}</p>
                 }
+                {
+                        index === 0 && (<img src='../../Scav.png' alt='Scavenger Hunt' className='project-image' />)
+                        
+                    }
+                    {
+                        index === 1 && (<img src='../../3Card2.png' alt='3 Card Poker' className='project-image' />)
+                    }
+                    {
+                        index === 2 && (<img src='../../BarChart.png' alt='Animated Bar' className='project-image' />)
+                    }
+                </button>
+                
             </div>
             <div className='next-slide-nav'>
                 <button className='next-slides' onClick={() => prevSlide()}><HiArrowCircleLeft />

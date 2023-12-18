@@ -6,16 +6,16 @@ import './Navbar.css';
 
 export function NavBar() {
     const handleScrollHome = () => {
-        window.scrollTo({ top: 10, behavior: 'smooth' });
+        window.scrollTo({ top: 40, behavior: 'smooth' });
     }
     const handleScrollAbout = () => {
-        window.scrollTo({ top: 1050, behavior: 'smooth' });
+        window.scrollTo({ top: 1550, behavior: 'smooth' });
     }
     const handleScrollExperiences = () => {
-        window.scrollTo({ top: 2120, behavior: 'smooth' });
+        window.scrollTo({ top: 3100, behavior: 'smooth' });
     }
     const handleScrollProjects = () => {
-        window.scrollTo({ top: 3200, behavior: 'smooth' });
+        window.scrollTo({ top: 4670, behavior: 'smooth' });
     }
     return (
         <nav>
