@@ -8,23 +8,13 @@ export function NavBar() {
     const handleScrollHome = () => {
         window.scrollTo({ top: 40, behavior: 'smooth' });
     }
-    const handleScrollAbout = () => {
-        window.scrollTo({ top: 1550, behavior: 'smooth' });
-    }
-    const handleScrollExperiences = () => {
-        window.scrollTo({ top: 3100, behavior: 'smooth' });
-    }
-    const handleScrollProjects = () => {
-        window.scrollTo({ top: 4670, behavior: 'smooth' });
-    }
     return (
         <nav>
             <a href='/' onClick={() => handleScrollHome()}><div className="nav-symbol">Ali Saeed</div></a>
             <ul className="nav-options" >
-                {/* <a href='/' onClick={() => handleScrollHome()}><li>/ Home</li></a> */}
-                <a href='#about' onClick={() => handleScrollAbout()}><li>/ About</li></a>
-                <a href='#Experiences' onClick={() => handleScrollExperiences()}><li>/ Experiences</li></a>
-                <a href='#Projects' onClick={() => handleScrollProjects()}><li>/ Projects</li></a>
+                <a href='/#about'><li>/ About</li></a>
+                <a href='/#Experiences'><li>/ Experiences</li></a>
+                <a href='/#Projects' ><li>/ Projects</li></a>
             </ul>
             <div className='icons'>
                 <a href='https://github.com/alisaeed10'>

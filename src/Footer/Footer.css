@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgba(74, 76, 86, 0.137);
+    height: 15vh;
+    margin: -0.5%;
+    border-top:2px solid #E5C687;
+}
+.footer-content{
+    display: flex;
+    margin-top: 1%;
+    color: #E5C687;
+    font-size: 1rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: #E5C687;
+    font-size: 1.5rem;
+    margin-right: 5%;
+}

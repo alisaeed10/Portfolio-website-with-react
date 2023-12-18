@@ -3,6 +3,7 @@ import { Intro } from "./Intro/Intro"
 import { About } from "./About/About"
 import { Expreineces } from "./Exp.tsx/Exp"
 import { Projects } from "./Projects/Project"
+import { Footer } from "./Footer/Footer.tsx"
 export function App() {
 
   return (
@@ -12,6 +13,7 @@ export function App() {
       <About />
       <Expreineces />
       <Projects />
+      <Footer />
     </div>
   )
 }

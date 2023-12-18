@@ -5,7 +5,7 @@ import './About.css';
 export function About() {
 
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <p className="about-title">Get To Know More About Me: </p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
             <div className="about-content">

@@ -67,8 +67,9 @@ export function Projects() {
         }
     }
     return (
-        <div className="Projects">
-            <p className="Project-title">Projects I Built</p>
+
+        <div id='Projects' className="Projects">
+            <p  className="Project-title">Projects I Built</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
             <div className='project-content' onClick={() => transfer()}>
                 <button className='project-button' >
@@ -100,5 +101,6 @@ export function Projects() {
                 </button>
             </div>
         </div>
+
     );
 }
