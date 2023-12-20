@@ -54,6 +54,7 @@ export function Expreineces() {
                 <p className='exp-position'>{theExpreinces[index][1]}</p>
                 <p className='exp-date'>{theExpreinces[index][2]}</p>
                 {Array.isArray(theExpreinces[index][3])
+                    // @ts-ignore
                     ? theExpreinces[index][3].map((item: string, num: number) => (
                         <p className='exp-bulletpoint' key={num}>{item}</p>
                     )) : <p>{theExpreinces[index][3]}</p>
