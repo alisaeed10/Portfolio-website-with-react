@@ -46,7 +46,6 @@ export function Projects() {
             newIndex = theProjects.length-1;
         }
         setIndex(newIndex);
-        setSlideIndex(false);
     }
     const prevSlide = () => {
         let newIndex = index - 1;
@@ -54,7 +53,6 @@ export function Projects() {
             newIndex = 0;
         }
         setIndex(newIndex);
-        setSlideIndex(true);
     }
     const transfer = () => {   
         if (index === 0) {
