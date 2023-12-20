@@ -17,7 +17,7 @@ export function Projects() {
             [
                 "Frontend: React, Typescript, HTML, CSS ",
                 "Backend: Node.js, Express, PostgreSQL ",
-                "Deloyed frontend on Netlify and backend on Heroku"
+                "Deployed frontend on Netlify and backend on Heroku"
             ]
 
         ],
