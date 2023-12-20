@@ -166,15 +166,23 @@ body{
 }
 }
 @media screen and (max-width: 500px) {
+  .intro-image{
+    width: 15rem;
+    margin-top: 10rem;
+}
   .intro-text-name{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    flex: nowrap;
   }
   .name{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .intro-text-title{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
+  .bio{
+    font-size: 1rem;
+}
   .project-image{
     width: 100%;
     margin-left: -2rem;
