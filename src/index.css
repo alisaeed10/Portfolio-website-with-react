@@ -211,11 +211,14 @@ body{
   margin-top: -1.5rem;
 }
 .project-button{
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   font-size: 1rem;
 }
 .project-content{
-  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+.project-image{
+  margin-right: 1rem;
 }
 
 }
