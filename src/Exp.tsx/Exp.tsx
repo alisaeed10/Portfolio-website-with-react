@@ -23,8 +23,8 @@ export function Expreineces() {
     }
     const theExpreinces = [
         [
-        "University of Illinios at Chicago, Chicago IL",
-        "Teaching Assisant for Data Structures",
+        "University of Illinois at Chicago, Chicago IL",
+        "Teaching Assistant for Data Structures",
         "August 2023 - Present",
         ["●  Held weekly office hours and taught concepts such as stacks, queues, and hash tables", "●  Conducted and contributed to the grading of multiple projects and technical Interview exams", "● Taught students debugging techniques to pinpoint exact technical coding problems, led to a decrease in time assisting a student and an increase in the number of students assisted per hour", "● Led multiple labs in reviewing and engaging students in discussion with the material learned that week"]
                 
@@ -34,13 +34,13 @@ export function Expreineces() {
             "Cashier",
             "Sep 2018 - July 2021",
             ["● Provided exceptional customer service by addressing inquiries and resolving complaints",
-            "● Demonstrated knowledge of procedures and policies, effectively answered customers' questions and concerns","●  Ensured shelves were stocked with merc handise and marked prices on items","● Efficiently managed company bills using various payment methods including cash, vouchers, and checks"]
+            "● Demonstrated knowledge of procedures and policies, effectively answered customers' questions and concerns","●  Ensured shelves were stocked with merchandise and marked prices on items","● Efficiently managed company bills using various payment methods including cash, vouchers, and checks"]
         ]
 
     ]
     return (
         <div id='Experiences' className="Exp">
-            <p className="Exp-title">My Expreicnces</p>
+            <p className="Exp-title">My Experiences</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
             <div className='positioning'>
             <div className='next-slide-nav'>
