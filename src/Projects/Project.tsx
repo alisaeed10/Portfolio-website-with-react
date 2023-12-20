@@ -9,7 +9,6 @@ import './Project.css';
 
 export function Projects() {
     const [index, setIndex] = useState(0);
-    const [slideIndex, setSlideIndex] = useState(true);
     const theProjects = [
         [
             "Scavenger Hunt Game",
