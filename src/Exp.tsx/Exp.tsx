@@ -42,6 +42,7 @@ export function Expreineces() {
         <div id='Experiences' className="Exp">
             <p className="Exp-title">My Expreicnces</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
+            <div className='positioning'>
             <div className='next-slide-nav'>
                 <button className='next-slides' onClick={() => prevSlide()}><HiArrowCircleLeft />
                 </button>
@@ -61,6 +62,7 @@ export function Expreineces() {
             <div className='next-slide-text'>
                 <p className={slideIndex ? 'next-slide-zero' : ''}><Bs1CircleFill /></p>
                 <p className={slideIndex ? '' : 'next-slide-one'}><Bs2CircleFill /></p>
+            </div>
             </div>
         </div>);
 }

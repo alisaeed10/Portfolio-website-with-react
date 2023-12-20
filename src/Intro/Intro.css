@@ -8,10 +8,10 @@
 .intro-image{
     width: 20rem;
     border-radius: 30px;
+    margin-top: 5rem;
 }
 .intro-text{
     color: #E5C687;
-    font-size: 4rem;
 }
 .intro-text-title{
     font-size: 3rem;

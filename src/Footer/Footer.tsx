@@ -10,13 +10,13 @@ export function Footer() {
             <div   className='contact' >
                 <p className='footer-contact'>-------- Contact --------</p>
                 <div className='icons2'>
-                    <a href='https://github.com/alisaeed10'>
+                    <a className="contact-icons" href='https://github.com/alisaeed10'>
                         <FontAwesomeIcon className="github-icon" icon={faGithub} size="lg" />
                     </a>
-                    <a href='https://www.linkedin.com/in/ali-saeed-swe/'>
+                    <a className="contact-icons" href='https://www.linkedin.com/in/ali-saeed-swe/'>
                         <FontAwesomeIcon icon={faLinkedin} size='lg' />
                     </a>
-                    <a href='mailto:asaee2@uic.edu'>
+                    <a className="contact-icons" href='mailto:asaee2@uic.edu'>
                         <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     </a>
                 </div>  

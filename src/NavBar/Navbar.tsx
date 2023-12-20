@@ -2,28 +2,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 export function NavBar() {
     const handleScrollHome = () => {
-        window.scrollTo({ top: 40, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     return (
         <nav>
-            <a href='/' onClick={() => handleScrollHome()}><div className="nav-symbol">Ali Saeed</div></a>
+            <a className='contact-icons' href='/' onClick={() => handleScrollHome()}><div className="nav-symbol">Ali Saeed</div></a>
             <ul className="nav-options" >
-                <a href='/#about'><li>/ About</li></a>
-                <a href='/#Experiences'><li>/ Experiences</li></a>
-                <a href='/#Projects' ><li>/ Projects</li></a>
+                <li className='section'><Link to="about" smooth={true} duration={500} offset={-50}>/ About</Link></li>
+                <li className='section'><Link to="Experiences" smooth={true} duration={500} offset={90}>/ Experiences</Link></li>
+                <li className='section'><Link to="Projects" smooth={true} duration={500} offset={-50}>/ Projects</Link></li>
             </ul>
             <div className='icons'>
-                <a href='https://github.com/alisaeed10'>
+                <a className='contact-icons' href='https://github.com/alisaeed10'>
                     <FontAwesomeIcon className="github-icon" icon={faGithub} size="xl" />
                 </a>
-                <a href='https://www.linkedin.com/in/ali-saeed-swe/'>
+                <a className='contact-icons' href='https://www.linkedin.com/in/ali-saeed-swe/'>
                     <FontAwesomeIcon icon={faLinkedin} size='xl' />
                 </a>
-                <a href='mailto:asaee2@uic.edu'>
+                <a className='contact-icons' href='mailto:asaee2@uic.edu'>
                     <FontAwesomeIcon icon={faEnvelope} size="xl" />
                 </a>
             </div>

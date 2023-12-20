@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWindowMinimize } from '@fortawesome/free-regular-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { HiArrowCircleLeft } from "react-icons/hi";
 import { HiArrowCircleRight } from "react-icons/hi";
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import './Project.css';
 
@@ -66,14 +68,20 @@ export function Projects() {
             window.location.href = 'https://github.com/alisaeed10/Animated-Bars';
         }
     }
+    const Scav = () => {
+        window.location.href = "https://play-scavenger-hunt.netlify.app/";
+    }
+
     return (
 
         <div id='Projects' className="Projects">
             <p  className="Project-title">Projects I Built</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
-            <div className='project-content' onClick={() => transfer()}>
-                <button className='project-button' >
-                <p className='project-name'>{theProjects[index][0]}</p>
+            <div className='project-content' >
+                <p className='project-name'>{theProjects[index][0]}
+                <button className='project-button' onClick={() => transfer()} ><FontAwesomeIcon className="github-icon" icon={faGithub} size="lg" /></button> 
+                {index === 0 && <button className='project-button' onClick={() => Scav()} ><FontAwesomeIcon className="github-icon" icon={faPaperclip} size="lg" /></button>}
+                </p>
                 <p className='project-date'>{theProjects[index][1]}</p>
                 <p className='project-description'>{theProjects[index][2]}</p>
                 {Array.isArray(theProjects[index][3])
@@ -82,22 +90,20 @@ export function Projects() {
                     )) : <p>{theProjects[index][3]}</p>
                 }
                 {
-                        index === 0 && (<img src='../../Scav.png' alt='Scavenger Hunt' className='project-image' />)
+                    index === 0 && (<img src='../../Scav.png' alt='Scavenger Hunt' className='project-image' />)
                         
-                    }
-                    {
-                        index === 1 && (<img src='../../3Card2.png' alt='3 Card Poker' className='project-image' />)
-                    }
-                    {
-                        index === 2 && (<img src='../../BarChart.png' alt='Animated Bar' className='project-image' />)
-                    }
-                </button>
-                
+                }
+                {
+                    index === 1 && (<img src='../../3Card2.png' alt='3 Card Poker' className='project-image' />)
+                }
+                {
+                    index === 2 && (<img src='../../BarChart.png' alt='Animated Bar' className='project-image' />)
+                }
             </div>
-            <div className='next-slide-nav'>
-                <button className='next-slides' onClick={() => prevSlide()}><HiArrowCircleLeft />
+            <div className='next-slide-nav2'>
+                <button className='next-slides2' onClick={() => prevSlide()}><HiArrowCircleLeft />
                 </button>
-                <button className='next-slides' onClick={() => nextSlide()}><HiArrowCircleRight />
+                <button className='next-slides2' onClick={() => nextSlide()}><HiArrowCircleRight />
                 </button>
             </div>
         </div>

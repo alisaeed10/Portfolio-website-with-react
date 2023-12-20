@@ -6,7 +6,7 @@ export function About() {
 
     return (
         <div id='about' className='about'>
-            <p className="about-title">Get To Know More About Me: </p>
+            <p className="about-title">Get To Know More About Me </p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
             <div className="about-content">
                 <p className='about-bio'>As of now, I am a Senior at the <span className='info-pieces'>University of Illinois at Chicago</span>, expecting to <span className='info-pieces'>graduate in May 2024</span>. In addition to my classes, I'm also working as <span className='info-pieces'>Teaching Assistant</span> for UIC's data structure course. Which is pretty cool—I get to help students and improve my tech and problem-solving skills along the way.

@@ -2,30 +2,16 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    height: 100vh;
+    
 }
 .Project-title{
     font-size: 3rem;
     color: #A0DDE6;
 }
 .project-content{
-    margin-top: 5rem;
-    width: 80%;
+    width: 100%;
     color: #E5C687;
-    padding: 1rem 1rem 1rem 1rem;
-    margin-left: 4rem;
-}
-
-.project-button{
-    background-color: #121619;
-    border: 5px solid #E5C687;
-    border-radius:5rem;
-    color: #E5C687;
-    font-size: 1.5rem;
-    padding: 2rem 1rem 2rem 1rem;
-    cursor: pointer;
-    text-align: left;
-    width: 80%;
+    margin-left: 2rem;
 }
 .project-button:hover{
     background-color: #515555;
@@ -35,26 +21,59 @@
     color: #F7F3E3;
 }
 .project-date{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #F7F3E3;
     margin-top: -1.3rem;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-left: 2rem;
 }
 .project-description{
     font-size: 1.3rem;
-    width: 80%;
+    width: 50%;
     margin-top: -1.2rem;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
     margin-left: 2rem;
 }
 .project-bulletpoint{
-    margin-left: 2rem;
+    margin-left: 2rem; 
 }
 .project-image{
-    width: 90%;
-    margin-left: 2rem;
+    width: 35rem;
+    height: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 2rem;
+    margin-left: 2rem;
+}
+.next-slide-nav2{
+    margin-bottom: 4%;
+    height: 5rem;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20rem;
+}
+.next-slides2{
+    background-color: #ecf0f1;
+    font-size: 2.5rem;
+    color: #121619;
+    margin-left: 5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+.next-slides2:hover{
+    background-color: #E5C687;
+}
+.project-button{
+    position: relative;
+    bottom: 0.2rem;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: #ecf0f1;
+    background-color: #121619;
+    border:#121619;
 }

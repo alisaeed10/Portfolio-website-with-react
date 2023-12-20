@@ -40,19 +40,25 @@ li{
 .icons:hover{
     color: #E5C687;
 }
-a{
+.contact-icons{
     margin: 0 1rem;
     color: #ecf0f1;
 }
-a:link{
+.contact-icons:link{
 
     text-decoration: none;    
 
 }
-a:hover{
+.contact-icons:hover{
     color: #E5C687;
 }
-a:active{
+.contact-icons:active{
     color: #E5C687;
 }
-
+.section{
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.section:hover{
+    color: #E5C687;
+}

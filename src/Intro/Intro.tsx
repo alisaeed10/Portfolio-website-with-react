@@ -26,7 +26,7 @@ export function Intro() {
             </div>
             <p className='intro-text-title'>I am <span className='title'>{name[0]}</span></p>
             <div className="intro-bio">
-                <p className='bio'>Currently I'm studying Computer Science at the University of Illinois at Chicago. With the skills I've attained, I aspire to become a software engineer with a great interest in full-stack development, AI/Machine Learning, Cloud Services, and more. My goal is to contribute a meaningful impact in the advancement of technology by creating innovative solutions.</p>
+                <p className='bio'>Currently I'm studying Computer Science at the University of Illinois at Chicago. With the skills I've attained, I aspire to become a software engineer with a great interest in full-stack development, AI/Machine Learning, Cloud Services, and more. My goal is to contribute to a meaningful impact in the advancement of technology by creating innovative solutions.</p>
             </div>
         </div>
     );

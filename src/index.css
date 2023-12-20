@@ -1,3 +1,202 @@
 body{
   background-color: #121619;
 }
+@media screen and (max-width: 1100px) {
+  .nav-symbol{
+    right: 24%;
+    font-size: 1.2rem;
+  }
+  .icons{
+    left: 2%;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+  }
+  .contact-icons{
+    margin: 0 0.5rem;
+    color: #ecf0f1;
+  }
+  .intro-image{
+    width: 20rem;
+    margin-top: 5rem;
+    margin-bottom: -3%;
+  }
+  .intro-text-name{
+    font-size: 4rem;
+    margin-bottom: -5%;
+  }
+  .intro-bio{
+    width: 90%;
+  }
+  .intro-text-title{
+    font-size: 2.5rem;
+  }
+  .about-bio{
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .tech-skills{
+    font-size: 1.2rem;
+  }
+  .about-image{
+    margin-left: -4rem;
+    width: 9rem;
+  }
+  .about-image2{
+    width: 16rem;
+  }
+  .positioning{
+    margin-top: -2rem;
+    margin-right: 0%;
+  }
+  .exp-bulletpoint{
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .project-description{
+    width: 60%;
+    margin-top: -0.5rem;
+  }
+  .next-slide-nav2{
+    margin-right: 9rem;
+  }
+  .contact{
+    margin-left: 4.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-symbol{
+    left: 7%;
+    width: 8rem;
+  }
+  .icons{
+    left: -1%;
+    width: 8rem;
+  }
+  .nav-options{
+    font-size: 1.2rem;
+    margin-left: 2.5rem;
+  }
+}
+@media screen and (max-width: 870px) {
+  .nav-symbol{
+    right: 60%;
+    width: 8rem;
+    padding: 1.5rem;
+  }
+  .nav-options{
+    position: relative;
+    right: 15%;
+    display: none;
+  }
+  .about{
+    margin-left: 0%;
+}
+.Exp{
+  padding-top: 0rem;
+  margin-left: 0%;
+}
+.Projects{
+  margin-left: 0%;
+}
+}
+@media screen and (max-width: 720px) {
+  .about{
+    margin-left: 0%;
+}
+.line{
+  margin-top: -2rem;
+}
+  .about-title{
+    font-size: 2.5rem;
+  }
+  .about-content{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tech-skills{
+  margin-left: 2rem;
+}
+.Exp{
+  padding-top: 0rem;
+  margin-left: 0%;
+}
+.Exp-title{
+  font-size: 2.5rem;
+  color: #A0DDE6;
+}
+.Projects{
+  margin-left: 0%;
+}
+.Project-title{
+  font-size: 2.5rem;
+}
+.next-slide-nav2{
+  
+  margin-right: 3rem;
+}
+.exp-employer{
+  font-size:1.7rem;
+}
+.exp-position{
+
+  font-size: 1.5rem;
+}
+.exp-date{
+  font-size: 1.2rem;
+}
+.intro-text-title{
+  font-size: 2rem;
+}
+.intro-text-name{
+  font-size: 3.5rem;
+}
+.name{
+  font-size: 3.5rem;
+}
+.bio{
+  text-align: center;
+  color: #E5C687;
+  font-size: 1.3rem;
+}
+}
+@media screen and (max-width: 500px) {
+  .intro-text-name{
+    font-size: 3rem;
+  }
+  .name{
+    font-size: 3rem;
+  }
+  .intro-text-title{
+    font-size: 1.7rem;
+  }
+  .project-image{
+    width: 100%;
+    margin-left: -2rem;
+}
+.project-description{
+ 
+  width: 80%;
+  
+}
+.exp-employer{
+  font-size: 1.5rem;
+}
+.exp-position{
+  
+  font-size: 1.5rem;
+}
+.about-image{
+  margin-left: 0rem;
+  width: 7rem;
+}
+.about-image2{
+  margin-left: 3rem;
+  width: 10rem;
+}
+
+}
