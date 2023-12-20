@@ -167,8 +167,8 @@ body{
 }
 @media screen and (max-width: 500px) {
   .intro-image{
-    width: 15rem;
-    margin-top: 10rem;
+    width: 17rem;
+    margin-top: 5rem;
 }
   .intro-text-name{
     font-size: 2.5rem;
@@ -207,5 +207,10 @@ body{
   margin-left: 3rem;
   width: 10rem;
 }
-
+.tech-skills-content{
+  margin-top: -1.5rem;
+}
+.project-button{
+  margin-left: 0.5rem;
+}
 }
