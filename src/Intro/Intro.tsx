@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './Intro.css';
 
 export function Intro() {
-    const name = ['a Software Enigneer', 'an Innovator', 'a Full-Stack Developer', 'a AI/Machine Learning Enthusiast', 'a Computer Sciencist', 'a Problem Solver', ];
+    const name = ['a Software Engineer', 'an Innovator', 'a Full-Stack Developer', 'a AI/Machine Learning Enthusiast', 'a Computer Scientist', 'a Problem Solver', ];
     useEffect(() => {
         let i = 0;
         const interval = setInterval(() => {
