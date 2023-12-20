@@ -85,6 +85,7 @@ export function Projects() {
                 <p className='project-date'>{theProjects[index][1]}</p>
                 <p className='project-description'>{theProjects[index][2]}</p>
                 {Array.isArray(theProjects[index][3])
+                    // @ts-ignore
                     ? theProjects[index][3].map((item: string, num: number) => (
                         <p className='project-bulletpoint' key={num}>{item}</p>
                     )) : <p>{theProjects[index][3]}</p>
