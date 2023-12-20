@@ -12,7 +12,7 @@ export function About() {
                 <p className='about-bio'>As of now, I am a Senior at the <span className='info-pieces'>University of Illinois at Chicago</span>, expecting to <span className='info-pieces'>graduate in May 2024</span>. In addition to my classes, I'm also working as <span className='info-pieces'>Teaching Assistant</span> for UIC's data structure course. Which is pretty cool—I get to help students and improve my tech and problem-solving skills along the way.
                 </p>
                 <p className='about-bio'>
-                    Outside of school, I enjoy furthuring my knowledge on the different types technologcal advancement and taking care of my physical health by consistently working out at the gym.</p>
+                    Outside of school, I enjoy furthering my knowledge on the different types technological advancement and taking care of my physical health by consistently working out at the gym.</p>
                 <p className='about-bio'>
                 <span className='info-pieces'>Looking forward</span>, I'm actively seeking a <span className='info-pieces'>full-time</span> opportunity to collaborate with a passionate and encouraging team as a <span className='info-pieces'>Software Engineer</span>, contributing to innovative and creative projects. If you have any questions or would like to connect, feel free to drop me an email. I'd love to hear from you!
                 </p>
