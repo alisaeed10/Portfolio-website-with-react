@@ -40,7 +40,7 @@ export function Expreineces() {
     ]
     return (
         <div id='Experiences' className="Exp">
-            <p className="Exp-title">My Experiences</p>
+            <p className="Exp-title">Experiences</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
             <div className='positioning'>
             <div className='next-slide-nav'>

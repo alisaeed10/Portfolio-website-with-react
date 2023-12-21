@@ -72,8 +72,14 @@ export function Projects() {
     return (
 
         <div id='Projects' className="Projects">
-            <p  className="Project-title">Projects I Built</p>
+            <p  className="Project-title">Projects</p>
             <FontAwesomeIcon icon={faWindowMinimize} className='line' />
+            <div className='next-slide-nav2'>
+                <button className='next-slides2' onClick={() => prevSlide()}><HiArrowCircleLeft />
+                </button>
+                <button className='next-slides2' onClick={() => nextSlide()}><HiArrowCircleRight />
+                </button>
+            </div>
             <div className='project-content' >
                 <p className='project-name'>{theProjects[index][0]}
                 <button className='project-button' onClick={() => transfer()} ><FontAwesomeIcon className="github-icon" icon={faGithub} size="lg" /></button> 
@@ -97,12 +103,6 @@ export function Projects() {
                 {
                     index === 2 && (<img src='../../BarChart.png' alt='Animated Bar' className='project-image' />)
                 }
-            </div>
-            <div className='next-slide-nav2'>
-                <button className='next-slides2' onClick={() => prevSlide()}><HiArrowCircleLeft />
-                </button>
-                <button className='next-slides2' onClick={() => nextSlide()}><HiArrowCircleRight />
-                </button>
             </div>
         </div>
 
