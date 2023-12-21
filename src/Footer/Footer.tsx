@@ -16,7 +16,7 @@ export function Footer() {
                     <a className="contact-icons" href='https://www.linkedin.com/in/ali-saeed-swe/'>
                         <FontAwesomeIcon icon={faLinkedin} size='lg' />
                     </a>
-                    <a className="contact-icons" href='mailto:asaee2@uic.edu'>
+                    <a className="contact-icons" href='mailto:alisaeed.cs@outlook.com'>
                         <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     </a>
                 </div>  
