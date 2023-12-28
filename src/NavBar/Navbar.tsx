@@ -24,7 +24,7 @@ export function NavBar() {
                 <a className='contact-icons' href='https://www.linkedin.com/in/ali-saeed-swe/'>
                     <FontAwesomeIcon icon={faLinkedin} size='xl' />
                 </a>
-                <a className='contact-icons' href='mailto:alisaeed.cs@outlook.com'>
+                <a className='contact-icons' href='mailto:alisaeed.swe@outlook.com'>
                     <FontAwesomeIcon icon={faEnvelope} size="xl" />
                 </a>
             </div>
